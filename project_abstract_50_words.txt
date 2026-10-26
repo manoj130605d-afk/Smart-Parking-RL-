@@ -1,0 +1,1 @@
+We model smart parking allocation as an RL problem with three zones, uncertain vehicle stays, and changing occupancy. A Q-learning agent observes zone occupancy, vehicle stay category, and demand period, then selects a zone. Rewards balance search time, walking distance, and congestion. We compare its performance with simple allocation baselines.
